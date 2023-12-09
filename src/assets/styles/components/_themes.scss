@@ -1,0 +1,18 @@
+@use '../colors' as *;
+button.themes{
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--l1);
+  color: var(--l3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
