@@ -1,0 +1,14 @@
+@use './reset';
+@use './colors' as *;
+@use './components/home';
+@use './components/about';
+@use './components/portfolio';
+@use './components/contact';
+@use './components/links';
+@use './components/themes';
+@use './globle';
+
+::selection{
+  background-color: var(--l1);
+  color: var(--l2);
+}
