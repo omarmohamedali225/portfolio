@@ -34,6 +34,14 @@ export default function Portfolio() {
               </div>
             );
           })}
+          <div className="item">
+            <h1 style={{ textShadow: "1px 2px 20px white" }}>GitHub...</h1>
+            <div className="view">
+              <a href="https://github.com/omarmohamedali225" target="_blank">
+                <FaCode />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
