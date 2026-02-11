@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $l1:#454E56;
 $l2:#8ACDD7;
 $l3:#6C7983;
@@ -22,4 +23,30 @@ body.dark{
   --l3:#{$d3};
   --l4:#{$d4};
   background-color: #191D2B;
+=======
+$l1:#454E56;
+$l2:#8ACDD7;
+$l3:#6C7983;
+$l4:#F8F8F8;
+$d1:#454E56;
+$d2:#27AE60;
+$d3:#ffffff;
+$d4:#2a2e35;
+:root{
+  --l1:#{$l1};
+  --l2:#{$l2};
+  --l3:#{$l3};
+  --l4:#{$l4};
+  background-color: #eee;
+}
+body{
+  transition: .3s;
+}
+body.dark{
+  --l1:#{$d1};
+  --l2:#{$d2};
+  --l3:#{$d3};
+  --l4:#{$d4};
+  background-color: #191D2B;
+>>>>>>> f229ba40a7ba7f225851aedb31877e072f9046bb
 }

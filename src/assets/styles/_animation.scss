@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 @mixin animation($name){
   @keyframes #{$name} {
     @content;
   }
+=======
+@mixin animation($name){
+  @keyframes #{$name} {
+    @content;
+  }
+>>>>>>> f229ba40a7ba7f225851aedb31877e072f9046bb
 }

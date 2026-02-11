@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link, useLocation } from "react-router-dom";
 import { FaBriefcase, FaEnvelope, FaHome } from "react-icons/fa";
 export default function Links() {
@@ -32,3 +33,39 @@ export default function Links() {
     </>
   );
 }
+=======
+import { Link, useLocation } from "react-router-dom";
+import { FaBriefcase, FaEnvelope, FaHome } from "react-icons/fa";
+export default function Links() {
+  const location = useLocation().pathname;
+  return (
+    <>
+      <ul className="menu-links">
+        <Link to="/" className={location == "/" ? "active" : ""}>
+          <li>
+            <FaHome />
+          </li>
+        </Link>
+        <Link to="about" className={location == "/about" ? "active" : ""}>
+          <li>
+            <FaEnvelope />
+          </li>
+        </Link>
+        <Link
+          to="portfolio"
+          className={location == "/portfolio" ? "active" : ""}
+        >
+          <li>
+            <FaBriefcase />
+          </li>
+        </Link>
+        <Link to="contact" className={location == "/contact" ? "active" : ""}>
+          <li>
+            <FaEnvelope />
+          </li>
+        </Link>
+      </ul>
+    </>
+  );
+}
+>>>>>>> f229ba40a7ba7f225851aedb31877e072f9046bb
