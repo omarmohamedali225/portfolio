@@ -14,7 +14,7 @@ export const data = [
   {
     id: 2,
     img: vanilla,
-    view: "https://www.vanillaa.rf.gd/",
+    view: "https://vanilla.freedev.app/",
     code: "https://github.com/omarmohamedali225/vanilla",
   },
   {
